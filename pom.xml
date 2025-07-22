@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>Mailinator2</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Archetype - Mailinator2</name>
+  <url>http://maven.apache.org</url>
+    <description>Archetype for Mailinator2</description>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <timestamp>${maven.build.timestamp}</timestamp>
+    <maven.build.timestamp.format>yyyy_MM_dd_HH_mm</maven.build.timestamp.format>
+  </properties>
+
+  <dependencies>
+  <dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.0.7</version>
+    <scope>test</scope>
+  </dependency>
+
+  <dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20140107</version>
+<!--    <version>20250517</version>-->
+  </dependency>
+</dependencies>
+
+
+</project>
